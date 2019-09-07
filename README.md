@@ -101,6 +101,10 @@ import foo from './foo'
 
 The purpose of `require-esmodule` is to detect and make it easier to get the **default export**s of es modules, so the default value of `requireDefault` is set to `true`
 
+## getExports(exports: any, requireDefault?)
+
+Detect and get the **real** exports from the return value of `require(id)`
+
 ## License
 
 [MIT](LICENSE)

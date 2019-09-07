@@ -1,6 +1,6 @@
 {
   "name": "require-esmodule",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "require a compiled es6 module and handle exports.default",
   "main": "src/index.js",
   "scripts": {
@@ -21,7 +21,12 @@
     "url": "git://github.com/kaelzhang/require-esmodule.git"
   },
   "keywords": [
-    "require-esmodule"
+    "require-esmodule",
+    "reuqire",
+    "esm",
+    "esmodule",
+    "export default",
+    "default"
   ],
   "engines": {
     "node": ">= 6"
